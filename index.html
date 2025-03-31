@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebCraft Academy</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          class="logo__image"
+          src="/image/logo.png"
+          alt="Logo de WebCraft Academy"
+        />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#cursos">Cursos</a></li>
+          <li><a href="#about">Sobre Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <h1>Bienvenido a WebCraft Academy</h1>
+      <p>
+        Bienvenidos a WebCraft Academy, un espacio donde el arte y la tecnología
+        se encuentran para formar a los diseñadores web del mañana. Somos una
+        escuela online dedicada a proporcionar formación integral en el campo
+        del diseño web, desde los fundamentos hasta las habilidades avanzadas
+        que te permitirán crear experiencias web excepcionales.
+      </p>
+      <p>
+        Nuestra misión es formar profesionales competentes y creativos en el
+        diseño web, brindándoles una educación accesible, de alta calidad y
+        alineada con las tendencias más actuales del mercado digital.
+      </p>
+      <div class="carousel">
+        <div class="carousel-container">
+          <img
+            src="/image/curso_htmlycss.jpg"
+            alt="Diseño Web con HTML y CSS"
+          />
+          <img
+            src="/image/js.jpg"
+            alt="JavaScript para Desarrolladores Front-End"
+          />
+          <img src="/image/UX_UI.jpg" alt="UX/UI Design" />
+        </div>
+      </div>
+      <button>Inscríbete ahora</button>
+    </section>
+
+    <section id="cursos">
+      <h2>Nuestros Cursos</h2>
+      <div class="cursos">
+        <div class="curso">
+          <h3>Diseño Web con HTML y CSS</h3>
+          <p>
+            Aprende a construir sitios web estáticos con HTML y CSS, los
+            lenguajes fundamentales para el diseño web. Este curso cubre todo lo
+            necesario, desde las bases hasta técnicas avanzadas de diseño.
+          </p>
+          <p><b>Duración: 4 semanas</b></p>
+        </div>
+        <div class="curso">
+          <h3>JavaScript para Desarrolladores Front-End</h3>
+          <p>
+            Domina JavaScript y lleva tus habilidades de diseño web al siguiente
+            nivel. Aprenderás a agregar interactividad y dinamismo a tus sitios
+            con este lenguaje imprescindible.
+          </p>
+          <p><b>Duración: 6 semanas</b></p>
+        </div>
+        <div class="curso">
+          <h3>UX/UI Design</h3>
+          <p>
+            En este curso, aprenderás los principios fundamentales del diseño de
+            experiencia de usuario (UX) y la interfaz de usuario (UI). El foco
+            está en la creación de sitios web atractivos y funcionales.
+          </p>
+          <p><b>Duración: 8 semanas</b></p>
+        </div>
+        <div class="curso">
+          <h3>SEO para Web Designers</h3>
+          <p>
+            Aprende a optimizar tus sitios web para que aparezcan en los
+            primeros resultados de búsqueda en Google. Este curso cubre las
+            técnicas de SEO más relevantes para diseñadores web.
+          </p>
+          <p><b>Duración: 4 semanas</b></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>Sobre Nosotros</h2>
+      <p>
+        WebCraft Academy está compuesta por un equipo de apasionados expertos en
+        diseño y desarrollo web, dedicados a compartir sus conocimientos y
+        experiencia con aquellos que desean adentrarse en el mundo digital.
+        Nuestro equipo incluye diseñadores web, desarrolladores front-end,
+        expertos en UX/UI, y profesionales en marketing digital que, además de
+        ser grandes educadores, son innovadores y creadores activos en la
+        industria. Trabajamos con una metodología práctica y moderna, combinando
+        clases teóricas con proyectos reales que te permitirán obtener
+        experiencia práctica desde el primer día.
+      </p>
+
+      <h3>Nuestros Valores</h3>
+      <ul>
+        <li>
+          Innovación constante: Creemos en la evolución continua y en
+          mantenernos al día con las últimas tendencias tecnológicas.
+        </li>
+        <li>
+          Creatividad sin límites: Fomentamos la libertad creativa y la
+          resolución innovadora de problemas.
+        </li>
+        <li>
+          Calidad educativa: Ofrecemos formación de alta calidad, con material
+          actualizado y orientado a la práctica.
+        </li>
+        <li>
+          Accesibilidad: Nos esforzamos por hacer que nuestros cursos sean
+          accesibles para todos, sin importar su nivel de experiencia.
+        </li>
+      </ul>
+      <h3>Nuestros Objetivos</h3>
+      <ul>
+        <li>
+          <p>
+            Capacitar a más de 1,000 estudiantes anualmente en diversas áreas
+            del diseño web, ayudándoles a encontrar empleos en la industria
+            digital.
+          </p>
+        </li>
+        <li>
+          <p>
+            Establecer alianzas con empresas tecnológicas para crear programas
+            de pasantías y prácticas que faciliten la inserción laboral de
+            nuestros estudiantes.
+          </p>
+        </li>
+        <li>
+          <p>
+            Ampliar la oferta educativa con nuevos cursos y programas
+            especializados, adaptándonos siempre a las necesidades del mercado.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 WebCraft Academy</p>
+      <a href="privacidad.html">Política de Privacidad</a>
+      <div class="footer-social">
+        <a href="https://facebook.com" target="_blank"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a href="https://twitter.com" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://instagram.com" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
